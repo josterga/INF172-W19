@@ -51,3 +51,16 @@ p{
   text-decoration: none;
 
 }
+
+#services:hover{
+    color: #ed936f;
+}
+
+.dropdown-menu{
+    background-color: #e2e2e2;
+}
+
+.dropdown-item:hover{
+    background-color: #e2e2e2;
+    color: #ed936f;
+}
