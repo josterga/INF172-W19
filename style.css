@@ -1,0 +1,29 @@
+nav{
+    margin-top: 0;
+    background-color: #e2e2e2;
+}
+
+.nav-link{
+    color: black;
+}
+
+.nav-link:hover{
+    color: #ed936f;
+}
+
+#logo{
+    width: 25%;
+}
+
+#links {
+    width: 50%;
+    text-align: right;
+}
+
+body{
+    background-color: #142634;
+}
+
+h1{
+color: white;
+}
