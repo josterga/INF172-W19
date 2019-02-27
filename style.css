@@ -32,6 +32,22 @@ h2{
   color: white;
 }
 
+h3{
+  color: white;
+}
+
 p{
   color: white;
+}
+
+.pic{
+  width: 150px;
+}
+
+.link{
+  display: block;
+  color: red;
+  font-size: 500%;
+  text-decoration: none;
+
 }
