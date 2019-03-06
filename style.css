@@ -1,14 +1,21 @@
+:root{
+  --background: black;
+  --text: white;
+  --acc: red;
+  --link: blue;
+}
+
 nav{
     margin-top: 0;
-    background-color: #e2e2e2;
+    background-color: var(--background);
 }
 
 .nav-link{
-    color: black;
+    color: var(--white);
 }
 
 .nav-link:hover{
-    color: #ed936f;
+    color: var(--white);
 }
 
 #logo{
@@ -21,23 +28,23 @@ nav{
 }
 
 body{
-    background-color: #142634;
+    background-color: var(--background);
 }
 
 h1{
-color: white;
+color: var(--white);
 }
 
 h2{
-  color: white;
+  color: var(--white);
 }
 
 h3{
-  color: white;
+  color: var(--white);
 }
 
 p{
-  color: white;
+  color: var(--white);
 }
 
 .pic{
@@ -46,7 +53,7 @@ p{
 
 .link{
   display: block;
-  color: red;
+  color: var(--blue);
   font-size: 150%;
   text-decoration: none;
 
@@ -57,10 +64,27 @@ p{
 }
 
 .dropdown-menu{
-    background-color: #e2e2e2;
+  color: var(--white);
+    background-color: var(--background);
 }
 
 .dropdown-item:hover{
-    background-color: #e2e2e2;
-    color: #ed936f;
+    background-color: var(--background);
+    color: var(--white);
+}
+
+.solution{
+  display: inline-block;
+  position: relative;
+}
+
+.solition p{
+  position: absolute;
+
+}
+
+.sol{
+  width: 25%;
+  margin-left: 6%;
+  position: relative;
 }
