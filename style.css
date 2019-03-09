@@ -60,12 +60,20 @@ p{
 }
 
 #services:hover{
-    color: #ed936f;
+    color: white;
+}
+      
+#services{
+    color: white;
 }
 
 .dropdown-menu{
   color: var(--white);
     background-color: var(--background);
+}
+      
+.dropdown-item{
+    color: var(--white);
 }
 
 .dropdown-item:hover{
@@ -88,3 +96,4 @@ p{
   margin-left: 6%;
   position: relative;
 }
+      
