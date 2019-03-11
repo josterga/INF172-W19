@@ -7,7 +7,7 @@
 
 nav{
     margin-top: 0;
-    background-color: var(--background);
+    background-color: #969696;
 }
 
 .nav-link{
@@ -15,7 +15,7 @@ nav{
 }
 
 .nav-link:hover{
-    color: var(--white);
+    color: #dbdbdb;
 }
 
 #logo{
@@ -29,6 +29,22 @@ nav{
 
 body{
     background-color: var(--background);
+}
+
+#aboutus{
+    padding: 15px;
+    text-align: center;
+}
+      
+.us{
+    width: 60%;
+    display: block;
+    margin: 0 auto;
+}
+      
+figcaption{
+    color: white;
+    text-align: center;
 }
 
 h1{
@@ -69,7 +85,7 @@ p{
 
 .dropdown-menu{
   color: var(--white);
-    background-color: var(--background);
+    background-color: #969696;
 }
       
 .dropdown-item{
@@ -77,7 +93,7 @@ p{
 }
 
 .dropdown-item:hover{
-    background-color: var(--background);
+    background-color: #c1c1c1;
     color: var(--white);
 }
 
@@ -96,4 +112,5 @@ p{
   margin-left: 6%;
   position: relative;
 }
+      
       
