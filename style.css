@@ -68,6 +68,13 @@ h3{
     color: var(--white);
 }   
 
+.carousel-inner{
+  width:100%;
+  max-height: 425px !important;
+}
+      
+
+
 p{
     color: white;
     font-family: "Noto Sans";
