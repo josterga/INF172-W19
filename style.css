@@ -66,7 +66,13 @@ h2{
 h3{
     font-family: "Catamaran";
     color: var(--white);
-}   
+} 
+      
+h4{
+    font-family: "Catamaran";
+    font-size: 23px;
+    color: #ff4444;
+}
 
 .carousel-inner{
   width:100%;
@@ -78,9 +84,16 @@ h3{
 p{
     color: white;
     font-family: "Noto Sans";
-    font-size: 105%;
+    font-size: 18px;
 }
 
+      
+iframe{
+  display: block;
+  margin: 0 auto;
+    padding-bottom: 25px;
+}
+      
 .pic{
   width: 150px;
 }
@@ -132,5 +145,6 @@ p{
   margin-left: 6%;
   position: relative;
 }
+      
       
       
